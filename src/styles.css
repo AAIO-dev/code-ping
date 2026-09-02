@@ -38,7 +38,7 @@
 
   --shadow-soft: 0 1px 2px 0 oklch(0 0 0 / 0.04), 0 4px 16px -4px oklch(0 0 0 / 0.06);
   /* تم تغيير لون التوهج ليتناسب مع الأخضر */
-  --shadow-glow: 0 10px 40px -10px oklch(0.60 0.16 160 / 0.45);
+  --shadow-glow: 0 10px 40px -10px oklch(0.60 0.16 285 / 0.45);
 }
 
 :root {
@@ -51,9 +51,9 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.16 0.02 260);
   /* الألوان الرئيسية الجديدة (الأخضر الزمردي) */
-  --primary: oklch(0.60 0.16 160);
+  --primary: oklch(0.60 0.16 285);
   --primary-foreground: oklch(0.99 0 0);
-  --primary-hover: oklch(0.53 0.16 160);
+  --primary-hover: oklch(0.53 0.16 285);
   --secondary: oklch(0.97 0.005 250);
   --secondary-foreground: oklch(0.2 0.02 260);
   --muted: oklch(0.97 0.005 250);
@@ -66,8 +66,8 @@
   --border: oklch(0.92 0.005 260);
   --input: oklch(0.92 0.005 260);
   /* تم تغيير لون حلقة التحديد والتوهج الخلفي */
-  --ring: oklch(0.60 0.16 160);
-  --hero-glow: oklch(0.60 0.16 160 / 0.18);
+  --ring: oklch(0.60 0.16 285);
+  --hero-glow: oklch(0.60 0.16 285 / 0.18);
 }
 
 .dark {
@@ -79,9 +79,9 @@
   --popover: oklch(0.12 0.01 260);
   --popover-foreground: oklch(0.95 0.01 260);
   /* الألوان الرئيسية الجديدة للوضع الداكن */
-  --primary: oklch(0.60 0.16 160);
+  --primary: oklch(0.60 0.16 285);
   --primary-foreground: oklch(0.99 0 0);
-  --primary-hover: oklch(0.53 0.16 160);
+  --primary-hover: oklch(0.53 0.16 285);
   --secondary: oklch(0.18 0.02 260);
   --secondary-foreground: oklch(0.9 0.02 260);
   --muted: oklch(0.2 0.015 260);
@@ -90,11 +90,11 @@
   --accent-foreground: oklch(0.9 0.02 260);
   --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(0.99 0 0);
-  --success: oklch(0.7 0.17 160);
+  --success: oklch(0.7 0.17 285);
   --border: oklch(0.22 0.015 260);
   --input: oklch(0.22 0.015 260);
-  --ring: oklch(0.60 0.16 160);
-  --hero-glow: oklch(0.60 0.16 160 / 0.25);
+  --ring: oklch(0.60 0.16 285);
+  --hero-glow: oklch(0.60 0.16 285 / 0.25);
   --shadow-soft: 0 1px 2px 0 oklch(0 0 0 / 0.15), 0 4px 16px -4px oklch(0 0 0 / 0.25);
 }
 
